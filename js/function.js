@@ -18,9 +18,16 @@ galeryImage.forEach((image) => {
 });
 
 // Remove modal
-modalElement.addEventListener("click", () => {
-  modalElement.classList.remove("show");
-  document.querySelector("body").style.overflow = "";
-});
+// modalElement.addEventListener("click", () => {
+//   modalElement.classList.remove("show");
+//   document.querySelector("body").style.overflow = "";
+// });
+
+modalElement
+  .querySelector(".btn-function .btn-close")
+  .addEventListener("click", () => {
+    modalElement.classList.remove("show");
+    document.querySelector("body").style.overflow = "";
+  });
 
 async function render() {}

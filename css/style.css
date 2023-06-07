@@ -28,7 +28,17 @@ hr {
 .modal.show {
   visibility: visible;
 }
+.modal.show .btn-function {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.modal.show .btn-function .btn-close {
+  cursor: pointer;
+  transform: scale(1.5);
+}
 .modal.show img {
+  max-width: 80%;
   max-height: 80%;
 }
 
@@ -102,6 +112,9 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+  }
+  header .name-container .name {
+    font-size: 2.5rem !important;
   }
 }
 

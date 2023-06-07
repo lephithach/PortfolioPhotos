@@ -1,6 +1,21 @@
 export const data = [
   {
+    url: "IMG_9041_Phi_Thach.jpg",
+    type: "",
+    date: "2023-06-01",
+  },
+  {
     url: "IMG_9049_Phi_Thach.jpg",
+    type: "",
+    date: "2023-06-01",
+  },
+  {
+    url: "IMG_9105_Phi_Thach.jpg",
+    type: "",
+    date: "2023-06-01",
+  },
+  {
+    url: "IMG_9122_Phi_Thach.jpg",
     type: "",
     date: "2023-06-01",
   },
@@ -10,12 +25,17 @@ export const data = [
     date: "2023-06-01",
   },
   {
+    url: "IMG_9144_Phi_Thach.jpg",
+    type: "",
+    date: "2023-06-01",
+  },
+  {
     url: "IMG_9152_Phi_Thach.jpg",
     type: "",
     date: "2023-06-01",
   },
   {
-    url: "IMG_9154_Phi_Thach.jpg",
+    url: "IMG_9159_Phi_Thach.jpg",
     type: "",
     date: "2023-06-01",
   },
